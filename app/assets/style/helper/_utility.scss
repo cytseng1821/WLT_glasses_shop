@@ -1,0 +1,64 @@
+/* background */
+.bg-primary {
+    background: $primary;
+}
+.bg-pink {
+    background: $pink;
+}
+.bg-black {
+    background: $black;
+}
+.bg-banner {
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-indexbanner {
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-qabanner {
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/qa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* border */
+.border-bottom-white {
+    border-bottom: 1px solid $white;
+}
+.border-black {
+    border: 1px solid $black;
+}
+.border-gray {
+    border: 1px solid #00000020;
+}
+
+/* hover */
+.hover-reverse {
+    color: $white;
+}
+.hover-reverse:hover {
+    background: $white;
+    color: $primary;
+}
+.hover-ul {
+    color: $white;
+}
+.hover-ul:hover {
+    text-decoration: underline;
+}
+.hover-opacity:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+    /* border */
+    .border-sm-white {
+        border: 1px solid $white;
+    }
+}

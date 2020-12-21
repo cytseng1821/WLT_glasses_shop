@@ -1,0 +1,21 @@
+.banner {
+    .icon {
+        height: 58px;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner {
+        .icon {
+            height: 48px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .banner {
+        .icon {
+            height: 24px;
+        }
+    }
+}

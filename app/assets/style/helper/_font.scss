@@ -1,0 +1,122 @@
+body {
+    font-family: Roboto, "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 80px;
+}
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 63px;
+}
+.font {
+    &-sm {
+        font-size: 14px;
+    }
+    &-md {
+        font-size: 16px;
+    }
+    &-lg {
+        font-size: 20px;
+    }
+    &-xl {
+        font-size: 24px;
+    }
+    &-2xl {
+        font-size: 36px;
+    }
+    &-3xl {
+        font-size: 48px;
+    }
+    &-4xl {
+        font-size: 72px;
+    }
+    &-bold {
+        font-weight: bold;
+    }
+    &-italic {
+        font-style: italic;
+    }
+}
+.line-lg {
+    line-height: 30px;
+}
+.text {
+    &-white {
+        color: $white;
+    }
+    &-primary {
+        color: $primary;
+    }
+    &-dark {
+        color: $dark;
+    }
+    &-gray {
+        color: $gray;
+    }
+    &-upper {
+        text-transform: uppercase;
+    }
+    &-center {
+        text-align: center;
+    }
+    &-right {
+        text-align: right;
+    }
+}
+
+@media (max-width: 992px) {
+    h2 {
+        font-size: 48px;
+    }
+    .font-md {
+        &-sm {
+            font-size: 14px;
+        }
+        &-md {
+            font-size: 16px;
+        }
+        &-lg {
+            font-size: 20px;
+        }
+        &-xl {
+            font-size: 28px;
+        }
+        &-2xl {
+            font-size: 32px;
+        }
+    }
+    .line-md-3xl {
+        line-height: 72px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 28px;
+    }
+    .font-sm {
+        &-sm {
+            font-size: 14px;
+        }
+        &-md {
+            font-size: 16px;
+        }
+        &-lg {
+            font-size: 20px;
+        }
+        &-xl {
+            font-size: 24px;
+        }
+        &-2xl {
+            font-size: 32px;
+        }
+    }
+    .text-sm-white {
+        color: $white;
+    }
+}

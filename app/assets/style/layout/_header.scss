@@ -1,0 +1,32 @@
+.header {
+    .logo {
+        a {
+            background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/logo.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 80px;
+            height: 49px;
+            text-indent: 101%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        .logo {
+            a {
+                width: 48px;
+                height: 30px;
+            }
+        }
+        .menu {
+            width: 100%;
+            li {
+                width: 50%;
+            }
+        }
+    }
+}

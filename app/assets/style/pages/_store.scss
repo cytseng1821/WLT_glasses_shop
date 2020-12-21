@@ -1,0 +1,51 @@
+.store-card {
+    width: 445px;
+    .location-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 224px;
+    }
+    .img1 {
+        background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/locate1.jpeg");
+    }
+    .icon {
+        width: 21px;
+        height: 21px;
+    }
+}
+.store-map {
+    width: 635px;
+    height: 422px;
+}
+
+@media (max-width: 992px) {
+    .store-card {
+        width: 100%;
+        .location-img {
+            width: 330px;
+            height: 164px;
+        }
+        .location-info {
+            width: 330px;
+        }
+    }
+    .store-map {
+        width: 100%;
+        height: 465px;
+    }
+}
+
+@media (max-width: 767px) {
+    .store-card {
+        .location-img {
+            width: 100%;
+        }
+        .location-info {
+            width: 100%;
+        }
+    }
+    .store-map {
+        height: 227px;
+    }
+}
